@@ -20,9 +20,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 @WebServlet("/extract")
-
-public class HelloWorldServlet extends HttpServlet {
-
+public class ExtractServlet extends HttpServlet {
 
     private ReVerbExtractor reverb;
 
